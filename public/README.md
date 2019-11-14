@@ -26,7 +26,7 @@
             ├── theme.less                                                  主题色文件
             └── index.less                                                  全局样式文件
 ## 运行命令
-执行npm run \<type\> 命令，type类型如下： 
+在public目录下 执行npm run \<type\> 命令，type类型如下： 
 - start 启动项目
 - build-d 打包开发环境项目
 - build-p 打包生产环境项目
