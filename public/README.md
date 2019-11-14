@@ -1,9 +1,8 @@
 # react-jsx-template
 这是一份基于 webpack + javascript + mobx 的打包项目模板。
 ## 项目结构
-react-jsx-template
-    │
-    public                                                                 前端页面
+    react-jsx-template
+    └── public                                                              前端页面
         ├── webpack.analyzer.js                         
         ├── webpack.common.js
         ├── webpack.dev.js
@@ -19,7 +18,8 @@ react-jsx-template
             │   ├── font
             │   └── img
             ├── components                                                  公用组件目录
-            ├── theme.less                                                  主题色相关
+            ├── pages                                                       页面目录
+            ├── theme.less                                                  主题色文件
             ├── utils                                                       公共函数以及公共类
             ├── index.js                                                    入口文件
             ├── route.jsx                                                   页面路由
