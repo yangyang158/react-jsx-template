@@ -10,8 +10,7 @@
     "build-p": "webpack --config webpack.prod.js",
     "build:analyzer": "webpack --config webpack.analyzer.js",
     "eslint": "eslint ./src/**/*.{js,jsx} --fix",
-    "release": "standard-version",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -41,7 +40,6 @@
     "babel-loader": "^8.0.6",
     "babel-plugin-jsx-control-statements": "^4.0.0",
     "clean-webpack-plugin": "^1.0.0",
-    "conventional-changelog": "^3.1.14",
     "css-loader": "^3.2.0",
     "eslint": "^6.2.1",
     "eslint-plugin-jsx-control-statements": "^2.2.1",
